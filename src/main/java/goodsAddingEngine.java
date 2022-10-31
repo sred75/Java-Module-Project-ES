@@ -14,7 +14,7 @@ public class goodsAddingEngine {
     public static void main(String[] args) {
         //ArrayList<String> enteredGoods = new ArrayList<>(); //Массив товаров
         //ArrayList<Double> enteredPrices = new ArrayList<>(); //Массив цен
-        goodsClass enteredGood = new goodsClass("", 0);
+        //goodsClass enteredGood = new goodsClass("", 0);
     } // конец тела main
 
     public static void goodsAddingEngine() { //запрос списка товаров и цен
@@ -42,7 +42,7 @@ public class goodsAddingEngine {
                         qty++;
                         Main.goodsArray.add(enteredName);
                         Main.pricesArray.add(enteredPrice);
-                        name.close();
+                        //name.close();
                         //System.out.println("Успешно добавлен товар: " + enteredGood.name + " за " + enteredGood.price);
                     } else {
                         System.out.println("Сумма должна быть больше нуля, повторите ввод:");
