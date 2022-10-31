@@ -17,7 +17,7 @@ public class Main {
         qtyOfGoods = goodsEntering.goodsArrayCreating();
 
                 //goodsAddingEngine.goodsRequests();
-        System.out.println("Кол-во введённых товаров: " + qtyOfGoods);
+        System.out.println("\nКол-во введённых товаров: " + qtyOfGoods);
         System.out.println(goodsArray.get(0));
         System.out.println(pricesArray.get(0));
 
