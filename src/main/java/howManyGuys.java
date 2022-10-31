@@ -7,7 +7,7 @@ public class howManyGuys {
     }
     public static int howManyGuys() {
         boolean flag = false;
-        System.out.println("На какое кол-во человек разделить счёт?");
+        System.out.print("На какое кол-во человек разделить счёт? ");
         while (!flag) {
             Scanner userInput = new Scanner(System.in);
             if (userInput.hasNextInt()) {
@@ -22,6 +22,4 @@ public class howManyGuys {
         }
         return qtyOfGuys;
     }
-
-
 }
